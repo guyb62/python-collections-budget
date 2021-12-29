@@ -3,7 +3,7 @@ import collections
 import matplotlib.pyplot as plt
 
 expenses = Expense.Expenses()
-filename = 'data/spending_data.csv'
+filename = "data/spending_data.csv"
 expenses.read_expenses(filename)
 spending_categories = []
 
